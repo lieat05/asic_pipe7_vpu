@@ -1,0 +1,76 @@
+npc
+├── device.cpp
+├── difftest.cpp
+├── dpic
+│   ├── lieat_axi_slave.v
+│   ├── lieat_core.v
+│   ├── lieat_fpga_sram.v
+│   ├── lieat_sram.v
+│   └── lieat_top.v
+├── exec.cpp
+├── expr.cpp
+├── include
+│   ├── common.h
+│   ├── device.h
+│   ├── isa.h
+│   ├── memory.h
+│   ├── mmio.h
+│   ├── sdb.h
+│   ├── trace.h
+│   └── utils.h
+├── isa.cpp
+├── log.cpp
+├── main.cpp
+├── Makefile
+├── memory.cpp
+├── mmio.cpp
+├── monitor.cpp
+├── README.md
+├── sdb.cpp
+├── timer.cpp
+├── trace.cpp
+├── vpu
+│   ├── lieat_exu_vpu.v
+│   ├── lieat_exu_vpu_vint.v
+│   ├── lieat_exu_vpu_vset.v
+│   ├── lieat_exu_vpu_vunit32.v
+│   ├── lieat_vcsrfile.v
+│   └── lieat_vregfile.v
+├── vsrc
+│   ├── lieat_axi_master.v
+│   ├── lieat_clint.v
+│   ├── lieat_csrfile.v
+│   ├── lieat_defines.v
+│   ├── lieat_exu_com_alu.v
+│   ├── lieat_exu_com_bjp.v
+│   ├── lieat_exu_com_csr.v
+│   ├── lieat_exu_com.v
+│   ├── lieat_exu_dcache.v
+│   ├── lieat_exu_div.v
+│   ├── lieat_exu_lsu.v
+│   ├── lieat_exu_muldiv.v
+│   ├── lieat_exu_mul.v
+│   ├── lieat_exu.v
+│   ├── lieat_exu_wbu.v
+│   ├── lieat_general_64x64_sram.v
+│   ├── lieat_general_compress32.v
+│   ├── lieat_general_count.v
+│   ├── lieat_general_dff.v
+│   ├── lieat_general_lzc.v
+│   ├── lieat_general_radix_4_qds.v
+│   ├── lieat_idu_dec.v
+│   ├── lieat_idu_depend.v
+│   ├── lieat_idu_disp.v
+│   ├── lieat_idu.v
+│   ├── lieat_ifu_bpu.v
+│   ├── lieat_ifu_dec.v
+│   ├── lieat_ifu_icache.v
+│   ├── lieat_ifu_ifetch_req.v
+│   ├── lieat_ifu_ifetch_rsp.v
+│   ├── lieat_ifu.v
+│   ├── lieat_regfile.v
+│   └── ysyx_22040000.v
+├── watchpoint.cpp
+└── wave.vcd
+
+4 directories, 70 files
